@@ -1,0 +1,24 @@
+ul{
+    margin:0;
+    padding-left:15px;
+    height: 450px;
+    overflow-y: scroll;
+}
+ul li{
+    list-style-type: decimal;
+    padding-bottom: 10px;
+}
+li.active{
+    font-weight: bold;
+}
+li span:first-child{
+    width: 94%;
+    overflow: hidden;
+}
+li span{
+    cursor: pointer;
+    display: inline-block;
+}
+.btn-container{
+    margin-top: 10px;
+}
