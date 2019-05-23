@@ -1,5 +1,5 @@
 // 2. This code loads the IFrame Player API code asynchronously.
-var socket = io("http://localhost:3001");
+var socket = io("https://huytap.github.io");
 var videoId = 0;
 var player;
 //onload get list
